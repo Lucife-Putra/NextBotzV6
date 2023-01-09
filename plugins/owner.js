@@ -14,7 +14,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
     itemCount : 999999,
     status: 404,
     surface : 404,
-    message: `Nih My Mastah :3`, 
+    message: `Nih My Mastah :v`, 
     orderTitle: ``,
     thumbnail: await conn.resize(await (await fetch('https://telegra.ph/file/7d80f81dd7c3ed1ff85a1.jpg')).buffer(), 300, 200) //Gambarnye
 

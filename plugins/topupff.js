@@ -44,24 +44,24 @@ const time = moment.tz('Asia/Jakarta').format('HH')
     }
     let muptime = clockString(_muptime)
  await conn.sendButton(m.chat, `${wish()} ${name}`,runnya + '\n\n' + wm + '\n\n' + botdate, thumb, [['🧑OWNER','.owner']], m, {
-  'document':{'url':'https://youtu.be/QOm1gEFbMdI'},
+  'document':{'url':'https://youtu.be/dTNrtQagzmc'},
 'mimetype':global.dpdf,
 'fileName':'「 ᴹᴿ᭄ PutraModz ×፝֟͜× 」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'previewType':'pdf',
 contextInfo: { externalAdReply :{ showAdAttribution: true,
-                        sourceUrl: 'https://youtu.be/QOm1gEFbMdI',
+                        sourceUrl: '    https://youtu.be/dTNrtQagzmc',
                         mediaType: 2,
                         description: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ PutraModz ×፝֟͜×`,
                         title: `💌 My Ultah: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
                         body: `⚘ by ᴹᴿ᭄ PutraModz ×፝֟͜×`,          previewType: 0,
                         thumbnail: await (await fetch(thumb)).buffer(),
-                        mediaUrl: 'https://youtu.be/QOm1gEFbMdI'
+                        mediaUrl: 'https://youtu.be/dTNrtQagzmcI'
                         
                       }}
 })
- let vn = `https://github.com/saipulanuar/Api-Github/raw/main/audio/script.mp3`
+ let vn = `./mp3/Play-Date-Melanie-Martinez-Cover-by-#U90a2#U51ef#U60a6XKY.opus`
   conn.sendFile(m.chat, vn, 'Fangz.Ganz', null, m, true, {
 type: 'audioMessage',
 ptt: true })
